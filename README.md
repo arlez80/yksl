@@ -32,7 +32,7 @@ void ykslUnloadShaderCode(char *code);
 const char *ykslGetTranspileError(void);
 
 // YKSL_RAYLIB_SUPPORT 定義時のみ (内部で transpile -> LoadShaderFromMemory)
-Shader ykslLoadShaderFromMemory(const char *vsCode, const char *fsCode, const ykslOptions *options);
+Shader ykslLoadShaderFromMemory(const char *code, const ykslOptions *options);
 ```
 
 | 引数 | 説明 |
